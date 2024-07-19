@@ -6,7 +6,7 @@ import Timer from './timer';
 import { useState } from 'react';
 
 function App() {
-const [showSettings, setShowSettings] = useState(true);
+const [showSettings, setShowSettings] = useState(false);
 
 const [workMinutes, setWorkMinutes] = useState(45);
 const [breakMinutes, setBreakMinutes] = useState(15);
@@ -18,6 +18,7 @@ const [breakMinutes, setBreakMinutes] = useState(15);
         breakMinutes,
         setWorkMinutes,
         setBreakMinutes,
+        showSettings,
         setShowSettings,
       }}>
       {showSettings ? <Settings /> : <Timer/>}
