@@ -1,3 +1,6 @@
+# A few screenshots of the Timer:
+![local image 1](image1.png)
+![local image 2](image2.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
